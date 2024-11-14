@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+   position: relative;
+   background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar{
+    width: 100%;
+    height: 20%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo img {
+    width: 120px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.sign-in a {
+    background-color: #e50914;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.main-content {
+     position: absolute; 
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center; 
+ }
+ .main-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.cta-button {
+
+    background-color: #e50914;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.page2{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.page2 h1{
+    color: white;
+    padding: 6% 7%;  
+    font-weight: 600;
+
+
+}
+
+.page3{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+
+.box{
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: white;    
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.page4{
+   width: 100%;
+   height: 100%;
+   background-color: black;
+
+
+}
+
+.page4 h1{
+    padding: 30px 60px;
+    color: white;
+}
+
+.page4 .con{
+
+   
+    border-radius: 10px;
+    width: 20%;
+    height:60%;    
+    margin-left: 45px;      
+    background-color: #1F111E;   
+     float: left;   
+     
+}
+
+.page4 .con h1{
+    color: white;
+    margin-left: -10px ;
+
+}
+.page4 .con p{
+    color: white;
+    font-size: 20px;
+}
+
+i{
+    margin-left: 70%;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+
+.page5{
+    height: 100%; 
+    display: flex;
+     flex-direction: column; 
+     align-items: center;  
+     justify-content: center; 
+    background-color: black;
+
+}
+
+.page5-con{
+    width: 80%; 
+    height: 15%; 
+    background-color: rgb(13, 15, 15);
+    margin-bottom: 5px; 
+    border: 1px solid #333;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; */
+
+
+}
+
+.page5-con h1{
+    color: white;
+    margin-left: 5%;
+    margin-top: 20px;
+
+}
+
+.page5-con i{
+    margin-left: 70%;
+    font-size: 40px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 25%;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn {
+    padding: 14px 70px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Colored Button */
+.colored-btn {
+    background-color: #e50914;
+    color: #fff;
+}
+
+/* Transparent Button */
+.transparent-btn {
+    background-color: transparent;
+    color: #e50914;
+    border: 1px solid #e50914;
+}
+
+.footer-txt h1{
+    color: white;
+    font-size: 17px;
+    margin-left: 15%;
+    margin-top: 50px;  
+}
+
+
+.item{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.last-con{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+.con-fix{
+    border-radius: 10px;
+    width: 20%;
+    height:60%; 
+   margin-top: 30px;    
+    margin-left: 45px;      
+    background-color: black;   
+     float: left;   
+     
+}
+
+.last{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+}
